@@ -2,9 +2,11 @@ package codewithcal.au.calendarappexample;
 
 import static codewithcal.au.calendarappexample.CalendarUtils.selectedDate;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -183,6 +185,24 @@ public class InitialQuizActivity extends AppCompatActivity{
                 RepeatEvent.repeatList.add(newRepeat);
             }
         }
+    }
+
+
+    public void displayMessage(View view) {
+        AlertDialog.Builder warning = new AlertDialog.Builder(this);
+        warning.setTitle("Warning");
+        warning.setMessage("Currently Under Development");
+        warning.setCancelable(false);
+        warning.setNeutralButton(
+                "Cancel",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+        AlertDialog alertWarning = warning.create();
+        alertWarning.show();
     }
 
 }
