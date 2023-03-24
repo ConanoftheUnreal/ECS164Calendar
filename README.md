@@ -1,3 +1,7 @@
+## Free Your Time
+
+This is an android app that was developed by Group 1 for ECS 164 Winter Quarter of 2023 at UC Davis. The purpose of this project was to develop a product prototype using the HCI design methods we learned in ECS 164. This is our final attempt at a High Fidelity Prototype. This project tries to solve student's feeling that they lack free time by creating an android calendar app that shows times that an user has available each day, as well as show average amounts of free time for each week. Because this is a prototype, there may be bugs or missing features from a final product, so please keep this in mind while using the app.
+
 ## Developers
 
 - Matthew Schulz <mkschulz@ucdavis.edu>,
@@ -21,3 +25,5 @@ Once you open the andriod studio project, then you should be able to run it afte
 ## Acknowledgement of Work
 
 Thanks to codeWithCal for creating tutorials for the calendar interface they developed. Here is the [link](https://www.youtube.com/watch?v=Aig99t-gNqM&t=232s) to their youtube tutorial and a link to the [original project](https://github.com/codeWithCal/CalendarTutorialAndroidStudio) in github. Also thanks to the android developing community for all the tips and tricks that we used in this project prototype.
+
+Also special thanks to Dr. Hao-Chuan Wang for teaching us the skills we used in our design process for this app, and our TAs for assisting us while working on this project.
